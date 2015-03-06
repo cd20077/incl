@@ -1,0 +1,310 @@
+/* IMPORT RESET */
+@import url("reset.css");
+
+/* IMPORT 12 COLUMN RESPONSIVE GS */
+@import url("responsive.gs.12col.css");
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*	EXAMPLE STYLES */
+html,
+body {
+  height: 100%;             /* #containerのmin-heightに対して必要なもの */
+  margin: 0;
+  padding: 0;
+}
+body {
+	color: white;
+	background-image: url(../img/def/back01.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+*::-webkit-scrollbar
+{
+	overflow:hidden;
+	width:1px;
+	background:#333;
+}
+	*::-webkit-scrollbar:horizontal
+	{
+		height:1px;
+	}
+*::-webkit-scrollbar-button
+{
+	display:none;
+}
+*::-webkit-scrollbar-piece
+{
+	background:#333;
+}
+	*::-webkit-scrollbar-piece:start
+	{
+		background:#333;
+	}
+*::-webkit-scrollbar-thumb
+{
+	background:#eee;
+}
+*::-webkit-scrollbar-corner
+{
+	background:#eee;
+}
+
+/*----------------------------------------
+	ヘッダー
+----------------------------------------*/
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	//line-height: 15em;
+	text-align: center;
+	//background: #333;
+	background-color: rgba(255,255,255,0.2);
+	width: 100%;
+	height: 150px;
+}
+
+header #headmain{
+	margin: 0 auto;
+	width: 80%;
+	height: 150;
+}
+
+header #headmain h1 .maintitle:before{
+	margin: 0 20px 0 5px;
+	font-family: 'FontAwesome';
+	content: "\f0c2";
+	//content: "\f05a";
+	font-size: 150px;
+  
+}
+header #headmain h1 {
+	width: 180px;
+	height: 180px;
+	//padding:10px;
+	font-family: 'Vidaloka', serif;
+	box-sizing: border-box;
+	//background: red;
+}
+
+/*----------------------------------------
+	メインコンテンツ
+----------------------------------------*/
+
+#container {
+	position: relative;
+	left: 0;
+	top: 0;
+	//line-height: 15em;
+	text-align: center;
+	//background: #CCC;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+main {
+	display: block;
+	position: relative;
+	//float: left;
+	width: 100%;
+	padding-top: 150px;
+	box-sizing: border-box;
+	//background: #CCC;
+	
+}
+
+section {
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+	width:100%;
+	min-height: 400px;
+	//line-height: 20em;
+	//padding: 10px;
+	box-sizing: border-box;
+	word-break:break-all;
+	position: relative;
+	//background: #CCC;
+}
+
+section a{
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+section #topleft {
+	width: 35%;
+	min-width: 200px;
+	//height: 200px;
+	//background: blue;
+	float: left;
+}
+
+section #topright {
+	width: 65%;
+	min-width: 350px;
+	min-height: 300px;
+	//height: 400px;
+	//background: red;
+	float: left;
+	position: relative;
+}
+
+section #topright p {
+	position: absolute;
+	bottom: 0;
+	vertical-align: middle;
+	color: #333;
+	//background: yellow;
+	line-height: 2em;
+	font-size: 3em;
+	font-family: 'spicebox_groteskdb', ゴシックMB101 DB,Gothic MB101 DemiBold,sans-serif;
+	text-shadow:1px 1px 3px #FFF,
+	1px -1px 3px #FFF,
+	-1px 1px 3px #FFF,
+	-1px -1px 3px #FFF;
+}
+
+section #newdiv {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	//min-height: 400px;
+	background-color: rgba(0,0,255,0.50);
+	box-sizing: border-box;
+	//border: solid 1px white;
+	-webkit-transition: background-color 0.3s linear;
+}
+section #newdiv:hover {
+	background-color: rgba(0,0,255,0.80);
+}
+section #logdiv {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	//min-height: 400px;
+	background-color: rgba(255,0,0,0.50);
+	box-sizing: border-box;
+	-webkit-transition: background-color 0.3s linear;
+}
+section #logdiv:hover {
+	background-color: rgba(255,0,0,0.80);
+}
+
+/*----------------------------------------
+	フッター
+----------------------------------------*/
+
+footer {
+	//max-width: 800px;
+	width: 100%;
+	height: 100px;
+	display: block;
+	width:100%;
+	//color: black;
+	background-color: #333;
+	margin-top: 50px;
+}
+
+footer address {
+	max-width: 800px;
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+	//padding: 10px;
+	//font-family: 'Vidaloka', serif;
+	text-align: right;
+	line-height: 100px;
+	box-sizing: border-box;
+}
+
+
+/*----------------------------------------
+	汎用
+----------------------------------------*/
+
+
+.maintitle{
+	//display:block;
+	font-size:100px;
+	line-height:150px;
+	//letter-spacing:-4px;
+	text-shadow:1px 1px 3px #444,
+	1px -1px 3px #444,
+	-1px 1px 3px #444,
+	-1px -1px 3px #444;
+}
+
+/*ヘッダーメニューONOFFバー*/
+.toggle_menu span{
+	display: block;
+	float: left;
+	width: 3px;
+	height: 100%;
+	background: #FFF;
+	margin:0 0 0 3px;
+	/*CSS アニメーションの付与*/
+	transition:all .2s;
+}
+
+.toggle_menu span.first,
+.toggle_menu span.third{
+	-webkit-transform: translate(0,-10px);
+	transform: translate(0,-10px);
+}
+
+.toggle_menu span.second{
+	-webkit-transform: translate(0,10px);
+	transform: translate(0,10px);
+}
+
+.toggle_menu:hover span.first,
+.toggle_menu:hover span.second,
+.toggle_menu:hover span.third{
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.cf:before,
+.cf:after{
+  content:"";
+  display: table;
+}
+.cf:after{
+  clear:both;
+}
+/*IE6,7対策 （haslayout対策）*/
+.cf{
+  *zoom:1;
+}
+
+/*ロゴアイコン*/
+.folder{
+	//margin: 0 auto;
+	//background: red;
+}
+.folder:before {
+	margin: 0 auto;
+	font-family: 'FontAwesome';
+	content: "\f05a";
+	font-size: 300%;
+}

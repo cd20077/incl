@@ -1,0 +1,430 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-01-26 13:19+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/FiletopsController.php:110
+#: Controller/GroupMembersController.php:59
+msgid "該当のプロジェクトは存在しません。"
+msgstr ""
+
+#: View/Auths/login.ctp:5
+#: View/Auths/login2.ctp:10
+#: View/Users/entry_input.ctp:6
+#: View/Users/pass_reset.ctp:7
+msgid "メールアドレス"
+msgstr ""
+
+#: View/Auths/login.ctp:9
+#: View/Auths/login2.ctp:14
+#: View/Users/entry_input.ctp:11
+#: View/Users/pass_reset_edit.ctp:24
+msgid "パスワード"
+msgstr ""
+
+#: View/Auths/login.ctp:14
+#: View/Auths/login2.ctp:19
+msgid "ログインする"
+msgstr ""
+
+#: View/Auths/login.ctp:15
+#: View/Auths/login2.ctp:20
+msgid "パスワードを忘れた方はこちら"
+msgstr ""
+
+#: View/Auths/login2.ctp:6
+#: View/Elements/side.ctp:47;105
+msgid "ログイン"
+msgstr ""
+
+#: View/Auths/login2.ctp:30
+#: View/Elements/header.ctp:10
+#: View/Layouts/front.ctp:10
+#: View/Layouts/frontgroup.ctp:10
+#: View/Layouts/top.ctp:10
+#: View/Layouts/usertop.ctp:10
+#: View/Tops/index.ctp:60
+msgid "incl"
+msgstr ""
+
+#: View/Auths/logout.ctp:14
+#: View/Elements/header.ctp:39
+#: View/Elements/side.ctp:32;90
+msgid "ログアウト"
+msgstr ""
+
+#: View/Auths/logout.ctp:15
+msgid "ログアウトしました。"
+msgstr ""
+
+#: View/Elements/footer.ctp:5
+msgid "新規フォルダ"
+msgstr ""
+
+#: View/Elements/footer.ctp:8
+msgid "アップロード"
+msgstr ""
+
+#: View/Elements/footer.ctp:12
+msgid "ダウンロード"
+msgstr ""
+
+#: View/Elements/footer.ctp:15
+msgid "ファイル削除"
+msgstr ""
+
+#: View/Elements/footer.ctp:18
+msgid "壁紙変更"
+msgstr ""
+
+#: View/Elements/header.ctp:20
+#: View/Users/usertop.ctp:27
+msgid "ユーザー名"
+msgstr ""
+
+#: View/Elements/header.ctp:27
+msgid "マイディスプレイ"
+msgstr ""
+
+#: View/Elements/header.ctp:30
+#: View/Users/grouptop.ctp:13
+#: View/Users/usertop.ctp:79
+msgid "プロジェクト"
+msgstr ""
+
+#: View/Elements/header.ctp:33
+#: View/Elements/side.ctp:36;51;94;109
+#: View/Users/entry_input.ctp:17
+msgid "利用規約"
+msgstr ""
+
+#: View/Elements/header.ctp:36
+msgid "ヘルプ"
+msgstr ""
+
+#: View/Elements/header.ctp:43
+#: View/Tops/index.ctp:54
+msgid "&copy;incl All Rights Reserved."
+msgstr ""
+
+#: View/Elements/side.ctp:19;77
+#: View/GroupMembers/addmember.ctp:9
+#: View/GroupMembers/groupdetail.ctp:101
+msgid "編集"
+msgstr ""
+
+#: View/Elements/side.ctp:23;44;81;102
+msgid "トップ"
+msgstr ""
+
+#: View/Elements/side.ctp:24;45;82;103
+msgid "検索"
+msgstr ""
+
+#: View/Elements/side.ctp:26;28;84;86
+msgid "マイページ"
+msgstr ""
+
+#: View/Elements/side.ctp:29;87
+msgid "ツーリストログの管理"
+msgstr ""
+
+#: View/Elements/side.ctp:30;88
+msgid "移動ログの管理"
+msgstr ""
+
+#: View/Elements/side.ctp:31;89
+#: View/Filetops/group.ctp:20
+msgid "設定"
+msgstr ""
+
+#: View/Elements/side.ctp:34;49;92;107
+msgid "ツーリストログについて"
+msgstr ""
+
+#: View/Elements/side.ctp:37;52;95;110
+msgid "お問い合わせ"
+msgstr ""
+
+#: View/Elements/side.ctp:46;104
+#: View/Users/entry_already.ctp:4
+#: View/Users/entry_comp.ctp:4
+#: View/Users/entry_input.ctp:2
+msgid "新規会員登録"
+msgstr ""
+
+#: View/Filetops/group.ctp:65
+#: View/GroupMembers/groupdetail.ctp:164
+msgid "送信"
+msgstr ""
+
+#: View/GroupMembers/addmember.ctp:5
+#: View/GroupMembers/groupdetail.ctp:97
+msgid "プロジェクトメンバー名"
+msgstr ""
+
+#: View/GroupMembers/addmember.ctp:6
+#: View/GroupMembers/groupdetail.ctp:98
+msgid "権限"
+msgstr ""
+
+#: View/GroupMembers/addmember.ctp:7
+#: View/GroupMembers/groupdetail.ctp:99
+#: View/Users/groupadd.ctp:8
+#: View/Users/grouptop.ctp:77
+msgid "加入日時"
+msgstr ""
+
+#: View/GroupMembers/addmember.ctp:18
+#: View/GroupMembers/groupdetail.ctp:110
+msgid "現在参加しているプロジェクトメンバーはいません"
+msgstr ""
+
+#: View/GroupMembers/addmember.ctp:37
+#: View/GroupMembers/groupdetail.ctp:129
+msgid "権限変更"
+msgstr ""
+
+#: View/GroupMembers/addmember.ctp:38
+#: View/GroupMembers/groupdetail.ctp:130
+msgid "脱退"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:12
+msgid "ディスプレイ"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:24
+msgid "プロジェクト名変更"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:35
+msgid "作成者"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:51
+msgid "メンバー追加"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:55
+#: View/Users/grouptop.ctp:49
+msgid "残り"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:65
+msgid "人追加可能"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:72
+#: View/Users/usertop.ctp:49
+msgid "使用領域"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:81
+#: View/Users/usertop.ctp:59
+msgid "現在サイズ"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:81
+#: View/Users/usertop.ctp:59
+msgid "最大サイズ"
+msgstr ""
+
+#: View/GroupMembers/groupdetail.ctp:84
+#: View/Users/usertop.ctp:69
+msgid "サイズ拡張"
+msgstr ""
+
+#: View/Tops/index.ctp:12
+msgid "<div id=\"logdiv\">新規会員登録</div>"
+msgstr ""
+
+#: View/Tops/index.ctp:17
+msgid "<div id=\"newdiv\">ログイン</div>"
+msgstr ""
+
+#: View/Users/entry_already.ctp:5
+msgid "このメールアドレスは会員登録済みです"
+msgstr ""
+
+#: View/Users/entry_already.ctp:7
+#: View/Users/pass_reset_conf.ctp:17
+msgid "ログイン画面へ"
+msgstr ""
+
+#: View/Users/entry_comp.ctp:5
+msgid "会員登録が完了しました。"
+msgstr ""
+
+#: View/Users/entry_comp.ctp:7
+msgid "inclを利用する"
+msgstr ""
+
+#: View/Users/entry_conf.ctp:6
+msgid "新規会員登録-仮登録"
+msgstr ""
+
+#: View/Users/entry_conf.ctp:7
+msgid "会員登録ありがとうございました。"
+msgstr ""
+
+#: View/Users/entry_conf.ctp:8
+msgid "登録確認のためメールを送信しました。"
+msgstr ""
+
+#: View/Users/entry_conf.ctp:9
+msgid "メールを受信し承認を行ってください。"
+msgstr ""
+
+#: View/Users/entry_input.ctp:19
+msgid "規約に同意してユーザ登録をする"
+msgstr ""
+
+#: View/Users/entry_input.ctp:21
+msgid "登録する"
+msgstr ""
+
+#: View/Users/groupadd.ctp:5
+#: View/Users/grouptop.ctp:74
+#: View/Users/usertop.ctp:83
+msgid "プロジェクト名"
+msgstr ""
+
+#: View/Users/groupadd.ctp:6
+#: View/Users/grouptop.ctp:75
+msgid "管理者"
+msgstr ""
+
+#: View/Users/groupadd.ctp:7
+#: View/Users/grouptop.ctp:76
+#: View/Users/usertop.ctp:85
+msgid "最終更新日時"
+msgstr ""
+
+#: View/Users/groupadd.ctp:15
+#: View/Users/grouptop.ctp:84
+#: View/Users/usertop.ctp:92
+msgid "現在参加しているプロジェクトはありません"
+msgstr ""
+
+#: View/Users/grouptop.ctp:19
+msgid "参加プロジェクト"
+msgstr ""
+
+#: View/Users/grouptop.ctp:29
+msgid "リーダープロジェクト"
+msgstr ""
+
+#: View/Users/grouptop.ctp:45
+msgid "新規プロジェクト"
+msgstr ""
+
+#: View/Users/grouptop.ctp:59
+msgid "つまで作成可能"
+msgstr ""
+
+#: View/Users/pass_reset.ctp:6
+msgid "登録しているメールアドレスを入力して、ボタンをクリックしてください。"
+msgstr ""
+
+#: View/Users/pass_reset.ctp:13
+#: View/Users/pass_reset_edit.ctp:14
+#: View/Users/pass_reset_edit_comp.ctp:14
+msgid "パスワード再設定"
+msgstr ""
+
+#: View/Users/pass_reset_conf.ctp:14
+msgid "パスワード再送"
+msgstr ""
+
+#: View/Users/pass_reset_conf.ctp:15
+msgid "登録頂いたアドレスにパスワード再発行メールを送信しました。"
+msgstr ""
+
+#: View/Users/pass_reset_conf.ctp:16
+msgid "メールを受信し確認を行ってください。"
+msgstr ""
+
+#: View/Users/pass_reset_edit.ctp:32
+msgid "パスワードを再設定する"
+msgstr ""
+
+#: View/Users/pass_reset_edit_comp.ctp:15
+msgid "パスワードが再設定されました。"
+msgstr ""
+
+#: View/Users/pass_reset_edit_comp.ctp:17
+msgid "ツーリストログを利用する"
+msgstr ""
+
+#: View/Users/usertop.ctp:10
+msgid "個人設定"
+msgstr ""
+
+#: View/Users/usertop.ctp:20
+msgid "ユーザーイメージ変更"
+msgstr ""
+
+#: View/Users/usertop.ctp:34
+msgid "ユーザー名変更"
+msgstr ""
+
+#: View/Users/usertop.ctp:38
+msgid "登録メールアドレス"
+msgstr ""
+
+#: View/Users/usertop.ctp:84
+msgid "管理者名"
+msgstr ""
+
+#: View/Users/usertop.ctp:113
+msgid "更新履歴"
+msgstr ""
+
+#: View/Users/usertop.ctp:125
+msgid "以前の更新情報へ"
+msgstr ""
+
+#: View/ViewBlock.php:78
+msgid "A view block with the name '%s' is already/still open."
+msgstr ""
+
+#: Model/User.php:validation for field mail
+msgid "<p class=\"err_mes\">メールアドレスを入力して下さい。</p>"
+msgstr ""
+
+#: Model/User.php:validation for field mail
+msgid "<p class=\"err_mes\">メールアドレスの形式が不正です。</p>"
+msgstr ""
+
+#: Model/User.php:validation for field mail
+msgid "<p class=\"err_mes\">このメールアドレスはすでに使用されています。</p>"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "<p class=\"err_mes\">パスワードを入力して下さい。</p>"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid "<p class=\"err_mes\">パスワードは半角英数字のみ有効です。</p>"
+msgstr ""
+
+#: Model/User.php:validation for field randnum
+msgid "notEmpty"
+msgstr ""
+
+#: Model/User.php:validation for field check
+msgid "<p class=\"err_mes\">利用規約への同意が必要です。</p>"
+msgstr ""
+

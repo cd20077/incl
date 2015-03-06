@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: auto;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+/*ヘッダー（サイト名ロゴが入ったブロック）
+---------------------------------------------------------------------------*/
+header {
+	text-align: center;
+	height: auto;
+	margin-bottom: 15px;
+}
+/*h1ロゴの設定*/
+header h1 {
+	position: static;
+	padding: 10px 0px;	/*ロゴの上下にあける余白が10px*/
+}
+header h1 img {
+	width: 100%;	/*画面に対してロゴ画像を100％の幅に*/
+	height: auto;
+}
+/*電話番号ボックスの設定*/
+header address {
+	position: static;
+	width: 100%;	/*ボックス幅*/
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/*上部のメインメニュー
+---------------------------------------------------------------------------*/
+/*メニュー１個ごとの設定*/
+nav#menu ul li {
+	float: none;
+	width: auto;
+}
+nav#menu ul li a {
+	margin: 0;
+}
+/*最後のメニューの設定*/
+nav#menu ul li:last-child {
+	margin-bottom: 20px;
+}
+
+/*コンテンツ（main,subを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	width: auto;
+}
+
+/*main,subコンテンツ
+---------------------------------------------------------------------------*/
+#main, #sub {
+	float: none;
+	width: auto;
+}
+#main p {
+	padding: 0.5em 5px 1em;	/*左から、上、左右、下への余白*/
+}
+
+/*トップページのメイン画像
+---------------------------------------------------------------------------*/
+#mainimg {
+	height: auto;
+	width: 100%;
+}
+#slide_image {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#slide_image2 {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+section#new h2.open {
+	background: url(../images/btn_minus.png) no-repeat right center, -webkit-gradient(linear, left top, left bottom, from(#1c1c1c), to(#000));	/*マイナスアイコンとグラデーション*/
+	background: url(../images/btn_minus.png) no-repeat right center, -webkit-linear-gradient(#1c1c1c, #000);									/*同上*/
+	background: url(../images/btn_minus.png) no-repeat right center, linear-gradient(#1c1c1c, #000);											/*同上*/
+}
+section#new h2.close {
+	background: url(../images/btn_plus.png) no-repeat right center, -webkit-gradient(linear, left top, left bottom, from(#1c1c1c), to(#000));	/*プラスアイコンとグラデーション*/
+	background: url(../images/btn_plus.png) no-repeat right center, -webkit-linear-gradient(#1c1c1c, #000);									/*同上*/
+	background: url(../images/btn_plus.png) no-repeat right center, linear-gradient(#1c1c1c, #000);											/*同上*/
+}
+/*ブロック全体の設定*/
+#new dl {
+	height: auto;
+	padding-left: 5px;
+}
+/*日付設定*/
+#new dt {
+	float: none;
+	width: auto;
+}
+/*記事設定*/
+#new dd {
+	padding-left: 0;
+}
+
+/*info.htmlやservice.htmlやplan.htmlで使っている紹介ボックスの設定
+---------------------------------------------------------------------------*/
+/*ボックス内の段落タグ設定*/
+#main section.list section p {
+	margin-left: 0;
+}
+/*ボックス内の写真設定*/
+#main .list section figure img {
+	width: 40%;
+	height: auto;
+	margin-right: 5px;
+}
+
+/*テーブル１
+---------------------------------------------------------------------------*/
+/*テーブル内の右側*/
+.ta1 td{
+	width: auto;
+	padding: 2px;
+}
+/*テーブル内の左側の見出し部分*/
+.ta1 th{
+	width: 100px;
+	padding: 2px;
+}
+
+/*info.htmlのページ内メニュー
+---------------------------------------------------------------------------*/
+/*メニューブロック全体の設定*/
+#main ul.pagemenu {
+	padding: 10px 0px;	/*上下、左右の余白*/
+}
+/*メニュー１個ごとの設定*/
+#main ul.pagemenu li {
+	display: block;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+img.fr {
+	width: 100%;
+	height: auto;
+}
+img.fl {
+	width: 100%;
+	height: auto;
+}
+/*写真の設定*/
+img.wa {
+	width: 100%;
+	height: auto;
+}
+/*<body class="s-n">指定の場合にsubブロックを表示させない設定*/
+body.s-n #sub {
+	display: none;
+}
+/*メニュー折りたたみ設定*/
+#top #menubar_hdr {
+	display: none;
+}
+#menubar_hdr {
+	display: inline;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e5e5e5));
+	background-image: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+	background-image: linear-gradient(#fbfbfb, #e5e5e5);
+	padding: 10px;
+	border: 1px solid #cfcfcf;
+	border-radius: 0px 0px 6px 6px;
+}

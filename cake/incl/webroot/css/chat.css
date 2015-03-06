@@ -1,0 +1,86 @@
+/* CSS Document */
+
+#inline_chat{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+#containar2 {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    //overflow: auto;
+}
+div#chat {
+	//position: fixed !important;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	//background-color: #FF99CC;
+	bottom: 0;
+	height: 40px;
+}
+.date {
+	font-size: 80%;
+	color: #666;
+	font-weight: normal;
+	text-align: right;
+}
+
+#Log {
+        position: relative;
+	padding-bottom: 40px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: auto;
+        
+}
+#Log ul li {
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #E88BBA;
+}
+#Log ul li .log {
+	font-weight: normal;
+	padding-left: 15px;
+	color: #333;
+}
+
+
+.inputtext {
+    width: 80%;
+    height: 40px;
+    border: 0px;/*ここを0pxに*/
+    color: #fdfcfc;/*ここの文字色を変更*/
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    background-color: #1b1b1b;/*ここの背景色を変更*/
+    font-size: 14px;
+    border-radius: 15px 0px 0px 15px;/*ここを変更*/
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+ 
+.searchbtn {
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+    //background-image: url(../images/btn2.gif);
+    background-position:center center;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px 15px 15px 0px;/*ここを変更*/
+}

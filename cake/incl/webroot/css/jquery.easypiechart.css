@@ -1,0 +1,55 @@
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 150px;
+  z-index: 2;
+  font-size: 2.5em;
+  font-family: 'Century Gothic';
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .6em;
+  font-family: 'arial',sans-serif;
+}
+.chart2 {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.chart2 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent2 {
+  display: inline-block;
+  line-height: 120px;
+  z-index: 2;
+  font-size: 1.6em;
+  font-family: 'Century Gothic';
+}
+.percent2:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .6em;
+  font-family: 'arial',sans-serif;
+}
