@@ -512,8 +512,9 @@ class AjaxfuncsController extends AppController {
             if (strpos($this->data['name'], '..') !== false) {
                 return "direrr";
             }else{
-                $folder = new Folder(USER_DATA_URL.$this->authData['randid'].'/'.mb_convert_encoding($this->data['name'], "SJIS", "AUTO").'/');
-                if(!file_exists($folder)){
+                $folurl = USER_DATA_URL.$this->authData['randid'].'/'.mb_convert_encoding($this->data['name'], "SJIS", "AUTO").'/';
+                $folder = new Folder($folurl);
+                if(!file_exists($folurl)){
                     return "not";
                 }else{
                     if($folder->delete()){
