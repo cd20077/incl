@@ -1,22 +1,11 @@
 
-¦Ž„‚Ìƒvƒƒ_ƒNƒg‚Å‚·‚ªADB‚âPHPAapacheAƒtƒŒ[ƒ€ƒ[ƒNCakePHP‚È‚Ç‚ÌŠÂ‹«Ý’è‚ª•K—v‚É‚È‚é‚½‚ßA
-@‚ ‚ç‚©‚¶‚ßŠO•”‚ÌƒT[ƒo[‚ÉÝ’u‚µ‚Ä‚ ‚è‚Ü‚·B
-@‰º‹LURLA‚à‚µ‚­‚Í“Y•t‚³‚ê‚Ä‚¢‚éƒCƒ“ƒ^[ƒlƒbƒgƒVƒ‡[ƒgƒJƒbƒg‚©‚ç‚²—˜—p‚­‚¾‚³‚¢B
-@•K—vŽ–€A—˜—p•û–@‚Í“¯“Y•t‚Ìreadme.txt‚ðŽQÆB
-@
+â€»ç§ã®ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆã§ã™ãŒã€DBã‚„PHPã€apacheã€ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯CakePHPãªã©ã®ç’°å¢ƒè¨­å®šãŒå¿…è¦ã«ãªã‚‹ãŸã‚ã€
+ã€€ã‚ã‚‰ã‹ã˜ã‚å¤–éƒ¨ã®ã‚µãƒ¼ãƒãƒ¼ã«è¨­ç½®ã—ã¦ã‚ã‚Šã¾ã™ã€‚
+ã€€ä¸‹è¨˜URLã€ã‚‚ã—ãã¯æ·»ä»˜ã•ã‚Œã¦ã„ã‚‹ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã‹ã‚‰ã”åˆ©ç”¨ãã ã•ã„ã€‚
+ã€€å¿…è¦äº‹é …ã€åˆ©ç”¨æ–¹æ³•ã¯åŒæ·»ä»˜ã®readme.txtã‚’å‚ç…§ã€‚
+ã€€
 	http://incl.masc.info/tops
-@
-@EcakeƒtƒHƒ‹ƒ_“à‚É‚ ‚éinclƒtƒHƒ‹ƒ_‚ªŽÀÛ‚Ìƒ\[ƒXƒR[ƒh‚Å‚·‚ªA
-@@CakePHP‚ðŽg—p‚µ‚Ä‚¨‚è‚Ü‚·‚Ì‚ÅcakeƒtƒHƒ‹ƒ_‚²‚Æ•K—v‚É‚È‚è‚Ü‚·B
-@Eincl.sql‚ÍŽ„‚Ìƒvƒƒ_ƒNƒgƒf[ƒ^ƒx[ƒX‚ÌSQLƒtƒ@ƒCƒ‹‚Å‚·BMySQL—pB
-
-
-ê–åŠwZHAL–¼ŒÃ‰®
-WEBŠJ”­Šw‰È 3”N
-@•½ˆä@Šx‘å
-nhs20077@gmail.com
-§470-2211
-ˆ¤’mŒ§’m‘½ŒSˆ¢‹v”ä’¬‘–ØŽš‹ì20-1
-TELF090-3307-1800
-
-
+ã€€
+ã€€ãƒ»cakeãƒ•ã‚©ãƒ«ãƒ€å†…ã«ã‚ã‚‹inclãƒ•ã‚©ãƒ«ãƒ€ãŒå®Ÿéš›ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™ãŒã€
+ã€€ã€€CakePHPã‚’ä½¿ç”¨ã—ã¦ãŠã‚Šã¾ã™ã®ã§cakeãƒ•ã‚©ãƒ«ãƒ€ã”ã¨å¿…è¦ã«ãªã‚Šã¾ã™ã€‚
+ã€€ãƒ»incl.sqlã¯ç§ã®ãƒ—ãƒ­ãƒ€ã‚¯ãƒˆãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®SQLãƒ•ã‚¡ã‚¤ãƒ«ã§ã™ã€‚MySQLç”¨ã€‚
