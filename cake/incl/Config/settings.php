@@ -8,7 +8,7 @@
 	define('SPI_SM_POST',     'incl');// 送信するサーバホスト名
 	//define('SPI_SM_POST',     'cdragons19@yahoo.co.jp');// 送信するサーバホスト名
 	define('SPI_SM_USERNAME', 'cd20077lovelive@gmail.com'); // アカウント
-	define('SPI_SM_PASSWORD', 'ahirai18');              // Gmailパスワード
+	define('SPI_SM_PASSWORD', '');              // Gmailパスワード
 	
 	define('USER_DATA_URL',   './files/userdata/');     // ユーザーデータ保存場所URL
 	define('PROJECT_DATA_URL','./files/projectdata/');  // プロジェクト保存場所URL
